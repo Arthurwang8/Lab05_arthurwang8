@@ -21,12 +21,13 @@ int main() {
 
     // RESET Rectangle NAMED "rug" FOR SIZES INPUT BY USER
     // (instead of the (0,0) used when it was created.
+    cin >> width >> length;
     rug.setWidth(width);
     rug.setLength(length);
     // Change the two assignment statements for floorArea and rugArea
     // to use the area method for each of the floor and rug objects.
     double floorArea = floor.area();
-    double rugArea = area(width,length);
+    double rugArea = rug.area();
 
     // DO NOT CHANGE ANYTHING BELOW (if you do, you are subject to
     // deductions, or getting a zero on the lab.))
