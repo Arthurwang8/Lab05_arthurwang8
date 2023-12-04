@@ -27,9 +27,10 @@ void Rectangle::setLength(double l) {
 }
 
 // IMPLEMENT THE AREA METHOD HERE
-double Rectangle::getArea() const{
-    return length*width;
+double Rectangle::getArea() const { 
+   return length*width;
 }
+
 
 
 
