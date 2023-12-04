@@ -25,7 +25,7 @@ int main() {
     rug.setLength(length);
     // Change the two assignment statements for floorArea and rugArea
     // to use the area method for each of the floor and rug objects.
-    double floorArea = floor.getAera();
+    double floorArea = floor.aera();
     double rugArea = area(width,length);
 
     // DO NOT CHANGE ANYTHING BELOW (if you do, you are subject to
