@@ -21,10 +21,10 @@ int main() {
 
     // RESET Rectangle NAMED "rug" FOR SIZES INPUT BY USER
     // (instead of the (0,0) used when it was created.
-    
+    rug
     // Change the two assignment statements for floorArea and rugArea
     // to use the area method for each of the floor and rug objects.
-    double floorArea = -1;
+    double floorArea = floor.getAera();
     double rugArea = -1;
 
     // DO NOT CHANGE ANYTHING BELOW (if you do, you are subject to
